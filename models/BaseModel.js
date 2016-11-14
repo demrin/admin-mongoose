@@ -1,5 +1,5 @@
 /**
- * Created by yuluo on 16/07/23.
+ * Created by demrin on 16/07/23.
  */
 var db = require('../db')
 

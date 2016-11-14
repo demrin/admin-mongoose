@@ -109,13 +109,13 @@
 
             $("#mainForm").validate({
                 rules:{
-                    userName:{required:true,minlength:2},
+                    userName:{required:true,minlength:5},
                     pwd:{required:true}
                 },
                 messages:{
                     userName:{
                         required:'用户名不能为空',
-                        minlength:'用户名最小程度为2'
+                        minlength:'用户名最小程度为5'
                     },
                     pwd:{
                         required:"密码不能为空"
